@@ -1,0 +1,282 @@
+@media (max-width: 1024px) {
+    header .nav-menu{
+        visibility: hidden;
+    }
+    header .mobile-btn {
+        visibility: visible;
+    }
+}
+@media (max-width: 991px) {
+    #services {
+        padding: 90px 0;
+    }
+    .block-title {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+     .section-title {
+        margin-bottom: 30px;
+    }
+     #services .block-title {
+         margin-bottom: 50px;
+     }
+    #services .box p {
+        font-size: 22px;
+    }
+    #aboutus {
+        padding: 90px 0;
+    }
+    #aboutus .section-title {
+        margin-bottom: 0;
+    }
+    #aboutus .block-title {
+        margin-bottom: 40px;
+        line-height: 45px;
+    }
+    #aboutus .box p {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    #aboutus .right-box .num {
+        font-size: 40px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+    #aboutus .right-box .subtitle {
+        margin-bottom: 30px;
+    }
+    #partners {
+        padding: 70px 0;
+    }
+    #partners .block-title {
+        margin-bottom: 0;
+    }
+    #reviews {
+        padding: 90px 0;
+    }
+    #reviews .block-title {
+        margin-bottom: 30px;
+    }
+    .owl-theme .owl-nav {
+        margin-bottom: -30px;
+    }
+    #contacts {
+        padding: 80px 0 90px 0;
+    }
+    #contacts .box .block-title {
+        margin-bottom: 30px;
+        font-size: 40px;
+        line-height: 35px;
+    }
+    #contacts .box .subtitle {
+        margin-bottom: 40px;
+    }
+    #contacts .contacts {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 767px) {
+    #services,
+    #aboutus,
+    #partners,
+    #reviews,
+    #contacts {
+        padding: 60px 0;
+    }
+    .block-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    #home {
+        padding: 80px 0 70px;
+    }
+    #services .box {
+        padding: 189px 0 100px 45px;
+        height: 260px;
+    }
+    #aboutus .block-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    #aboutus .box p {
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    header {
+        padding: 15px 0 20px 0;
+    }
+    .header .logo {
+        font-size: 30px;
+    }
+    #home {
+        padding: 60px 0;
+    }
+    #home .item h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    #home .button {
+        margin-bottom: 40px;
+    }
+    #services,
+    #aboutus,
+    #partners,
+    #reviews,
+    #contacts {
+        padding: 45px 0;
+    }
+    .section-title {
+        margin-bottom: 25px;
+    }
+    .block-title {
+        font-size: 25px;
+    }
+    #services .block-title {
+        margin-bottom: 35px;
+    }
+    #services .box {
+        padding: 151px 0 100px 45px;
+        height: 100px;
+    }
+    #services .box p {
+        font-size: 18px;
+    }
+    #aboutus .block-title {
+        font-size: 30px;
+    }
+    #aboutus .right-box .num {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    #aboutus .right-box .subtitle {
+        margin-bottom: 15px;
+    }
+    #reviews .reviews-slider .item {
+        padding: 30px 25px;
+    }
+    #contacts .box .block-title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    #contacts .box .subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    #contacts .box .item {
+        font-size: 16px;
+    }
+    #contacts .box input {
+        margin-bottom: 20px;
+    }
+    #contacts .box input::placeholder,
+    #contacts  textarea::placeholder {
+        font-size: 16px;
+        line-height: 29px;
+
+    }
+    #contacts  textarea {
+        height: 100px;
+        margin-bottom: 30px;
+    }
+     .button {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+     #contacts .contacts {
+         flex-wrap: wrap;
+     }
+     #contacts .contacts .item {
+         margin-bottom: 15px;
+     }
+}
+@media (max-width: 320px) {
+    #home {
+        padding: 70px 0;
+    }
+    #home .item h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    #home .button {
+        margin-bottom: 20px;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .owl-theme .owl-dots {
+        display: none;
+    }
+    #services,
+    #aboutus,
+    #partners,
+    #reviews,
+    #contacts {
+        padding: 40px 0;
+    }
+    .section-title {
+        font-size: 16px;
+    }
+    #services .block-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #aboutus .block-title {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    #aboutus .box p {
+        line-height: 20px;
+    }
+    #partners .section-title {
+        margin-bottom: 15px;
+    }
+    #partners .block-title {
+        font-size: 22px;
+    }
+    #reviews .section-title {
+        margin-bottom: 15px;
+    }
+    #reviews .block-title {
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    #reviews .reviews-slider .item {
+        padding: 25px 10px;
+    }
+    #contacts .box .block-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    #contacts .box .subtitle {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    #contacts .contacts {
+        flex-wrap: wrap;
+    }
+    #contacts .contacts .item {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #contacts .contacts {
+        margin-bottom: 0;
+    }
+    #contacts input {
+        margin-bottom: 20px;
+    }
+    #contacts .box input::placeholder,
+    #contacts  textarea::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button {
+        padding: 14px 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

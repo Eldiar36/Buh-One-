@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+dl, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none
+}
+
+a, a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    overflow-x: hidden;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Default CSS*/
+header {
+    padding: 22px 0 31px 0;
+}
+.header .logo img {
+    margin-right: 30px;
+}
+.header .logo {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 50px;
+    color: #005FA3;;
+}
+.header .menu-top li img {
+    margin-right: 15px;
+}
+.header .menu-top li {
+    margin-right: 40px;
+}
+.header .menu-top li:last-child {
+    margin-right: 0;
+}
+.header .menu-top li a {
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+.header .menu-bottom {
+    margin-top: 22px;
+}
+.header .menu-bottom li {
+    margin-right:  68px;
+}
+.header .menu-bottom li a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+}
+.mobile-btn {
+    position: fixed;
+    width: 20px;
+    height: 25px;
+    background: none;
+    top: 6%;
+    right: 10%;
+    z-index: 99999;
+    visibility: hidden;
+}
+.mobile-btn .line {
+    position: absolute;
+    background: black;
+    border-radius: 5px;
+    height: 3px;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    top: 11px;
+}
+.mobile-btn .line:first-child {
+    right: 0;
+    margin: auto;
+    width: 20px;
+    top: 4px;
+}
+.mobile-btn .line:last-child {
+    right: 0;
+    margin: auto;
+    width: 20px;
+    top: 18px;
+}
+.header.active .nav-menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    visibility: visible;
+}
+.header.active .nav-menu {
+    visibility: visible;
+    display: block;
+    margin:  0 auto;
+}
+.header.active .logo {
+    color: #ffffff;
+}
+.header.active .nav-menu li a {
+    color: #ffffff;
+}
+.header.active .line {
+    transform: rotate(180deg);
+}
+.header.active .line:last-child {
+    transform: rotate(-180deg);
+}
+.header.active .line:first-child {
+    display: none;
+}
+#home {
+    padding: 170px 0 113px;
+    background: url("../images/homebg.png") no-repeat;
+    background-size: cover;
+}
+#home .item h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.button {
+    display: inline-block;
+    padding: 18px 18px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #005FA3;
+}
+#home .button {
+    margin-bottom: 120px;
+}
+#home .owl-theme .owl-nav button {
+    background: #FFFFFF!important;
+    opacity: 0.2;
+}
+#home .owl-theme .owl-nav button.active {
+    opacity: 0.4;
+}
+.section-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    margin-bottom: 40px;
+}
+.block-title {
+    font-family: Merriweather,sans-serif;;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+#services {
+    padding: 140px 0;
+    background: #EBEBEB;
+}
+#services .block-title {
+    margin-bottom: 102px;
+}
+#services .box {
+    padding: 261px 0 45px 45px;
+    background: url("../images/servicesbg.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 360px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+#services .box p {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+#services .box:hover {
+    background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)) , url("../images/servicesbg.png")no-repeat center center;background-size: contain;
+}
+#aboutus {
+    padding: 140px 0;
+}
+#aboutus .box .block-title span {
+    color: #005FA3;
+}
+#aboutus .box {
+    padding-top: 40px;
+}
+#aboutus .box p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 60px;
+}
+#aboutus .right-box {
+    background: #EBEBEB;
+    padding: 30px 40px 40px;
+    margin-bottom: 30px;
+    transition: .4s ease-in;
+}
+#aboutus .right-box .num {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+#aboutus .right-box .subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 47px;
+}
+#aboutus .right-box a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+}
+#aboutus .right-box:hover {
+    background: #005FA3
+}
+#aboutus .right-box:hover .num,
+#aboutus .right-box:hover .subtitle,
+#aboutus .right-box:hover a {
+    color: #FFFFFF;
+}
+#partners {
+    padding: 100px 0;
+}
+#partners .block-title {
+    margin-bottom: 80px;
+}
+.owl-theme .owl-nav {
+     margin-top: 50px;
+    text-align: right;
+    margin-bottom: -10px;
+}
+.owl-theme .owl-dots {
+   text-align: left;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background: #005FA3;
+    opacity: 0.4;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #005FA3;
+    opacity: 1;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    display: none;
+}
+.owl-carousel .owl-nav button {
+    width: 50px;
+    height: 50px;
+    background: #005FA3!important;
+    opacity: 0.2;;
+    outline: none;
+    position: relative;
+}
+.owl-carousel .owl-nav button:hover {
+    background: #005FA3;
+}
+.owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px!important;
+    color: #fff!important;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+}
+#reviews {
+    padding: 140px 0;
+}
+#reviews .block-title {
+    margin-bottom: 80px;
+}
+#reviews .reviews-slider .item {
+    padding: 45px 95px;
+    background: #EBEBEB;
+}
+#reviews .item .description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 55px;
+}
+#reviews .image {
+    margin-right: 35px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+#reviews .name h3 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#reviews .name p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #4F4F4F;
+}
+#contacts {
+    padding: 122px 0 140px 0;
+    background: url("../images/contactsbg.png") no-repeat center center;
+    background-size: cover;
+}
+#contacts .box .block-title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+#contacts .box .subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 79px;
+}
+#contacts .box .item {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+#contacts .box .item svg {
+    margin-right: 16px;
+}
+#contacts form {
+    padding-top: 20px;
+}
+#contacts  label {
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+#contacts .box input {
+    width: 100%;
+    display: inline-block;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 8px 0 15px 0;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+#contacts .box input::placeholder,
+#contacts  textarea::placeholder {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+#contacts textarea {
+    width: 100%;
+    height: 120px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+#contacts .button {
+   float: right;
+}
+footer {
+    padding: 50px 0 40px 0;
+}
+footer p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
